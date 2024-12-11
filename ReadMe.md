@@ -40,10 +40,8 @@ The project consists of:
 
   **Service Interfaces:**
    - Offers ROS services to trigger arm movements to specific poses.
-   - Handles IK computations, plans paths, and executes motions upon service requests.
 
 ## Getting Started
-
 ### Prerequisites
 
 - **ROS:** Compatible with ROS Noetic or Melodic.
@@ -52,3 +50,7 @@ The project consists of:
 - **OpenCV:** For image processing.
 - **Python 3:** Along with necessary Python libraries.
 
+### Python dependencies installation 
+```
+pip install numpy scipy imutils opencv-python
+```
