@@ -44,8 +44,6 @@
   <group if="$(arg gui)">
     <node name="gazebo_gui" pkg="gazebo_ros" type="gzclient" respawn="false" output="screen"/>
   </group>
-	
-	
 
   <!-- these are the arguments you can pass this launch file, for example paused:=true -->
   <arg name="model" default="$(find robot_urdf)/urdf/exp_robot4.xacro" />
