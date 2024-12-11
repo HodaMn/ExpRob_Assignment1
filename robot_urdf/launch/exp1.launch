@@ -81,9 +81,5 @@
   
   <!-- Run the node for controlling the robot -->	
   <node name="camera_stabilizer" pkg="robot_urdf" type="camera_stabilizer.py" output="screen" /> 
-  
-  
-   
-  
 
 </launch>
