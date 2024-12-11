@@ -54,3 +54,9 @@ The project consists of:
 ```
 pip install numpy scipy imutils opencv-python
 ```
+
+### Running the node camera_stabilizer with the launch file  
+```
+roslaunch robot_urdf exp1.launch
+```
+The robot will turn to collect marker data and sequentially adjust its camera to align with each marker.
